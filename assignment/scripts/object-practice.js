@@ -43,7 +43,8 @@ console.log('my last fav food is (expecting Corn Dogs):', me.favThreeFoods[me.fa
 */
 console.log('my current shoe count is (expecting 10):', me.shoeCount);
 console.log('I got a new pair of shoes!');
-me.shoeCount = 11;
+//me.shoeCount = 11;
+me.shoeCount++; // increment makes sure it only increases by one (in case I forgot how many shoes I had to start with)
 console.log('my new current shoe count is (expecting 11):', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
